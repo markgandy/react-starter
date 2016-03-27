@@ -1,0 +1,40 @@
+[
+  {
+    "name": "User",
+    "kind": "OBJECT",
+    "interfaces": [
+      "Node"
+    ],
+    "fields": [
+      {
+        "name": "id",
+        "type": "ID",
+        "nonNull": true,
+        "unique": true
+      }
+    ]
+  },
+  {
+    "name": "Venue",
+    "kind": "OBJECT",
+    "interfaces": [
+      "Node"
+    ],
+    "fields": [
+      {
+        "name": "id",
+        "type": "ID",
+        "nonNull": true,
+        "unique": true
+      },
+      {
+        "name": "name",
+        "type": "String"
+      },
+      {
+        "name": "address",
+        "type": "String"
+      }
+    ]
+  }
+]
